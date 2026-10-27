@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+}
+
+.container {
+  width: 500px;
+  margin: 100px auto;
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+/* Intentional issue: HTML uses .primary-btn, but CSS expects .action-btn */
+.action-btn {
+  background: #222;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.action-btn:hover {
+  opacity: 0.8;
+}
