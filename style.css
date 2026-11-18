@@ -13,6 +13,13 @@ body {
   border-radius: 12px;
 }
 
+/* Changed: Styled the status line with a blue accent and subtle spacing. */
+.status-note {
+  color: #2563eb;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
 /* Intentional issue: HTML uses .primary-btn, but CSS expects .action-btn */
 .action-btn {
   background: #222;
