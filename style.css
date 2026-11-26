@@ -15,7 +15,7 @@ body {
 
 /* Intentional issue: HTML uses .primary-btn, but CSS expects .action-btn */
 .action-btn {
-  background: #222;
+  background: #222222cc;
   color: white;
   border: none;
   padding: 12px 24px;
